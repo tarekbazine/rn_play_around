@@ -1,6 +1,6 @@
 import React from 'react';
 import {StyleSheet, Text, View} from 'react-native';
-import AppBar from "../components/AppBar";
+import AppBar from "../components/AppBar/AppBar";
 
 export default function Home() {
     return (
