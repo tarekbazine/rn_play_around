@@ -19,7 +19,6 @@ const styles = StyleSheet.create({
     container: {
         paddingVertical : V_PADDING,
         paddingHorizontal : H_PADDING,
-        backgroundColor: '#ac2626',
         flexDirection: "row",
         justifyContent  : 'space-between'
     },
