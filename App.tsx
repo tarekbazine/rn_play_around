@@ -1,18 +1,19 @@
 import React from 'react';
 import Home from "./app/pages/Home";
-import {Platform, SafeAreaView, StatusBar, StyleSheet, Text, View} from "react-native";
+import {Platform, SafeAreaView, ScrollView, StatusBar, StyleSheet} from "react-native";
 import AppBar from "./app/components/AppBar/AppBar";
+import AppFooter from "./app/components/AppFooter/AppFooter";
 
 export default function App() {
     return (
         <SafeAreaView style={styles.container}>
             <AppBar/>
 
-            <Home/>
+            <ScrollView showsHorizontalScrollIndicator={false}>
+                <Home/>
+            </ScrollView>
 
-            <View>
-                <Text>Footer</Text>
-            </View>
+            <AppFooter/>
         </SafeAreaView>
     );
 }

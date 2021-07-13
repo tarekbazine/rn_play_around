@@ -1,6 +1,5 @@
 import React from 'react';
 import {StyleSheet, View} from 'react-native';
-import AppBar from "../components/AppBar/AppBar";
 import AppText from "../components/AppText/AppText";
 import {H_PADDING} from "../styles";
 import AppTextInput from "../components/AppTextInput/AppTextInput";
@@ -14,9 +13,8 @@ export default function Home() {
                 paddingHorizontal: H_PADDING
             }}>
 
-
                 <View style={{
-                    paddingBottom: 28
+                    paddingBottom: 12
                 }}>
                     <AppText bold={true} size={'XL'}>
                         Delicious
@@ -27,7 +25,7 @@ export default function Home() {
                 </View>
 
                 <View style={{
-                    paddingBottom: 40
+                    paddingBottom: 20
                 }}>
                     <AppTextInput/>
                 </View>
@@ -42,7 +40,5 @@ export default function Home() {
 
 
 const styles = StyleSheet.create({
-    container: {
-        flex: 1,
-    },
+    container: {},
 });
