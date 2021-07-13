@@ -1,0 +1,217 @@
+[
+  {
+    "name": "Home Catering",
+    "available_day": "Sat, Sun",
+    "items": [
+      {
+        "name": "Kobideh Kebab",
+        "price": 12,
+        "dateInserted": "2019-01-14",
+        "qtty": 1,
+        "imgSrc": "https://raw.githubusercontent.com/fadziljusri/kcafe-menus/master/kcafe_images/home_catering/kobideh_kebab.jpg?r=5124566534"
+      },
+      {
+        "name": "Chicken Kebab",
+        "price": 12,
+        "dateInserted": "2019-01-14",
+        "qtty": 1,
+        "imgSrc": "https://raw.githubusercontent.com/fadziljusri/kcafe-menus/master/kcafe_images/home_catering/chicken_kebab.jpg?r=5124566534"
+      },
+      {
+        "name": "Fish Fillet with Rice",
+        "price": 12,
+        "dateInserted": "2019-01-14",
+        "qtty": 1,
+        "imgSrc": "https://raw.githubusercontent.com/fadziljusri/kcafe-menus/master/kcafe_images/home_catering/fish_fillet_rice.jpg?r=5124566534"
+      },
+      {
+        "name": "Chelo Morg",
+        "price": 12,
+        "dateInserted": "2019-01-14",
+        "qtty": 1,
+        "imgSrc": "https://raw.githubusercontent.com/fadziljusri/kcafe-menus/master/kcafe_images/home_catering/chelo_morg.jpg?r=5124566534"
+      },
+      {
+        "name": "Gormeh Sabzi Stew",
+        "price": 12,
+        "dateInserted": "2019-01-14",
+        "qtty": 1,
+        "imgSrc": "https://raw.githubusercontent.com/fadziljusri/kcafe-menus/master/kcafe_images/home_catering/gormeh_sabzi_stew.jpg?r=5124566534"
+      },
+      {
+        "name": "Gheymeh Stew",
+        "price": 12,
+        "dateInserted": "2019-01-14",
+        "qtty": 1,
+        "imgSrc": "https://raw.githubusercontent.com/fadziljusri/kcafe-menus/master/kcafe_images/home_catering/gheymeh_stew.jpg?r=5124566534"
+      },
+      {
+        "name": "Adas Polo",
+        "price": 12,
+        "dateInserted": "2019-01-14",
+        "qtty": 1,
+        "imgSrc": "https://raw.githubusercontent.com/fadziljusri/kcafe-menus/master/kcafe_images/home_catering/adas_polo.jpg?r=5124566534"
+      },
+      {
+        "name": "Mash Polo",
+        "price": 12,
+        "dateInserted": "2019-01-14",
+        "qtty": 1,
+        "imgSrc": "https://raw.githubusercontent.com/fadziljusri/kcafe-menus/master/kcafe_images/home_catering/mash_polo.jpg?r=5124566534"
+      },
+      {
+        "name": "Loubeya Polo",
+        "price": 12,
+        "dateInserted": "2019-01-14",
+        "qtty": 1,
+        "imgSrc": "https://raw.githubusercontent.com/fadziljusri/kcafe-menus/master/kcafe_images/home_catering/luobeya_polo.jpg?r=5124566534"
+      }
+    ]
+  },
+  {
+    "name": "Madam Q",
+    "available_day": "",
+    "items": [
+      {
+        "name": "Nasi Lemak Ayam",
+        "price": 8.9,
+        "qtty": 1,
+        "imgSrc": "https://raw.githubusercontent.com/fadziljusri/kcafe-menus/master/kcafe_images/mdmq/nasilemakayam.jpg?r=5124566534"
+      },
+      {
+        "name": "Mandy Chicken",
+        "price": 13.5,
+        "qtty": 1,
+        "imgSrc": "https://raw.githubusercontent.com/fadziljusri/kcafe-menus/master/kcafe_images/mdmq/mandychicken.jpg?r=5124566534"
+      },
+      {
+        "name": "Arabic BBQ Chicken",
+        "price": 14.5,
+        "qtty": 1,
+        "imgSrc": "https://raw.githubusercontent.com/fadziljusri/kcafe-menus/master/kcafe_images/mdmq/bbq.jpg?r=5124566534"
+      },
+      {
+        "name": "Spaghetti Bolognese",
+        "price": 11.9,
+        "qtty": 1,
+        "imgSrc": "https://raw.githubusercontent.com/fadziljusri/kcafe-menus/master/kcafe_images/mdmq/bolognese.jpg?r=5124566534"
+      }
+    ]
+  },
+  {
+    "name": "PUBLIKA Chicken Rice Hainan",
+    "available_day": "Sat, Sun",
+    "items": [
+      {
+        "name": "Hainanese Chicken Rice",
+        "price": 10.07,
+        "qtty": 1,
+        "imgSrc": "https://raw.githubusercontent.com/fadziljusri/kcafe-menus/master/kcafe_images/publika/hainan.jpg?r=5124566534"
+      },
+      {
+        "name": "Roasted Chicken Rice",
+        "price": 10.07,
+        "qtty": 1,
+        "imgSrc": "https://raw.githubusercontent.com/fadziljusri/kcafe-menus/master/kcafe_images/publika/roasted.jpg?r=5124566534"
+      },
+      {
+        "name": "Hokkien Mee",
+        "price": 10.07,
+        "qtty": 1,
+        "imgSrc": "https://raw.githubusercontent.com/fadziljusri/kcafe-menus/master/kcafe_images/publika/hokkienmee.jpg?r=5124566534"
+      },
+      {
+        "name": "Fried Kuey Teow",
+        "price": 10.07,
+        "qtty": 1,
+        "imgSrc": "https://raw.githubusercontent.com/fadziljusri/kcafe-menus/master/kcafe_images/publika/keuyteow.jpg?r=5124566534"
+      },
+      {
+        "name": "Fried Carrot Cake",
+        "price": 10.07,
+        "qtty": 1,
+        "imgSrc": "https://raw.githubusercontent.com/fadziljusri/kcafe-menus/master/kcafe_images/publika/carrotcake.jpg?r=5124566534"
+      },
+      {
+        "name": "Spicy Fried Rice",
+        "price": 10.07,
+        "qtty": 1,
+        "imgSrc": "https://raw.githubusercontent.com/fadziljusri/kcafe-menus/master/kcafe_images/publika/spicyfriedrice.jpg?r=5124566534"
+      },
+      {
+        "name": "Wantan Mee",
+        "price": 10.07,
+        "qtty": 1,
+        "imgSrc": "https://raw.githubusercontent.com/fadziljusri/kcafe-menus/master/kcafe_images/publika/wantanmee.jpg?r=5124566534"
+      }
+    ]
+  },
+  {
+    "name": "Rahman",
+    "available_day": "Sat, Sun",
+    "items": [
+      {
+        "name": "Naan Cheese",
+        "price": 6.5,
+        "qtty": 1,
+        "imgSrc": "https://raw.githubusercontent.com/fadziljusri/kcafe-menus/master/kcafe_images/rahman/naancheese.jpg?r=5124566534"
+      },
+      {
+        "name": "Nasi Beriyani Ayam",
+        "price": 11,
+        "qtty": 1,
+        "imgSrc": "https://raw.githubusercontent.com/fadziljusri/kcafe-menus/master/kcafe_images/rahman/briyaniayam.jpg?r=5124566534"
+      },
+      {
+        "name": "Nasi Beriyani Daging",
+        "availability": 0,
+        "price": 13.3,
+        "qtty": 1,
+        "imgSrc": "https://raw.githubusercontent.com/fadziljusri/kcafe-menus/master/kcafe_images/rahman/briyanidaging.jpg?r=5124566534"
+      }
+    ]
+  },
+  {
+    "name": "SOI 55",
+    "available_day": "Sat, Sun",
+    "items": [
+      {
+        "name": "Tom Yam Beehon",
+        "availability": 0,
+        "price": 15,
+        "qtty": 1,
+        "imgSrc": "https://raw.githubusercontent.com/fadziljusri/kcafe-menus/master/kcafe_images/soi55/tomyam.jpg?r=5124566534"
+      },
+      {
+        "name": "Fried Hor Fun (With Thick Gravy Sauce)",
+        "price": 10,
+        "qtty": 1,
+        "imgSrc": "https://raw.githubusercontent.com/fadziljusri/kcafe-menus/master/kcafe_images/soi55/friedhorhun.jpg?r=5124566534"
+      },
+      {
+        "name": "Stir Fried Chicken With Basil Leaf & Egg",
+        "price": 12,
+        "qtty": 1,
+        "imgSrc": "https://raw.githubusercontent.com/fadziljusri/kcafe-menus/master/kcafe_images/soi55/stirchicken.jpg?r=5124566534"
+      },
+      {
+        "name": "Fried Rice With Salted Fish",
+        "price": 12,
+        "qtty": 1,
+        "imgSrc": "https://raw.githubusercontent.com/fadziljusri/kcafe-menus/master/kcafe_images/soi55/stirkailan.jpg?r=5124566534"
+      },
+      {
+        "name": "Fried Rice With Chicken",
+        "price": 12,
+        "qtty": 1,
+        "imgSrc": "https://raw.githubusercontent.com/fadziljusri/kcafe-menus/master/kcafe_images/soi55/frchicken.jpg?r=5124566534"
+      },
+      {
+        "name": "Fried Rice With Seafood",
+        "price": 12,
+        "qtty": 1,
+        "imgSrc": "https://raw.githubusercontent.com/fadziljusri/kcafe-menus/master/kcafe_images/soi55/frseafood.jpg?r=5124566534"
+      }
+    ]
+  }
+]
