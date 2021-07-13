@@ -19,6 +19,8 @@ export interface AppTextProps {
     bold?: boolean;
     color?: 'active' | 'secondary';
     children?: any;
+    textAlignCenter?: boolean;
+
 }
 
 export default function AppText(props: AppTextProps) {
@@ -33,6 +35,7 @@ export default function AppText(props: AppTextProps) {
     return <Text style={{
         color,
         fontSize,
-        fontWeight
+        fontWeight,
+        textAlign: props.textAlignCenter ? 'center' : undefined,
     }}>{props.children}</Text>;
 }

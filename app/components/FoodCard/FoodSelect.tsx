@@ -15,7 +15,7 @@ export default function FoodCard({product}: { product: Product }) {
             <Image style={styles.image} source={{uri: product.imgSrc}}/>
 
             <View style={styles.contentContainer}>
-                <AppText size={'L'} bold={true}>{product.name}</AppText>
+                <AppText size={'L'} bold={true} textAlignCenter={true}>{product.name}</AppText>
                 <SizedBox height={10}/>
                 <AppText color={"active"} bold={true}>{product.price.toFixed(2)}€</AppText>
             </View>
