@@ -2,18 +2,25 @@ import {Pressable, ScrollView, StyleSheet, View} from "react-native";
 import React, {useState} from "react";
 import {Category} from "../../models/category.interface";
 import AppText from "../AppText/AppText";
+import FoodCard from "../FoodCard/FoodSelect";
+import SizedBox from "../SizedBox/SizedBox";
 
 
 export default function FoodSelect({categories}: { categories: Category[] }) {
 
+    if (!categories?.length) {
+        return <AppText>No Results</AppText>
+    }
+
     // TODO s :
     //  - extract Tabs to a component
 
-    const [activeTab, setActive] = useState('');
+    const [activeTab, setActive] = useState(categories[0].name);
+
+    const activeCategory = categories.find(c => c.name == activeTab) || categories[0];
 
     return (
         <View style={styles.container}>
-
             <ScrollView horizontal={true} showsHorizontalScrollIndicator={false}>
                 <View style={styles.tabsContainer}>
                     {
@@ -22,6 +29,22 @@ export default function FoodSelect({categories}: { categories: Category[] }) {
                                 <Pressable onPress={() => setActive(category.name)}>
                                     <TabTitle title={category.name} active={category.name == activeTab}/>
                                 </Pressable>
+                            )
+                        })
+                    }
+                </View>
+            </ScrollView>
+
+            <SizedBox height={10}/>
+
+            <ScrollView horizontal={true} showsHorizontalScrollIndicator={false}>
+                <View style={styles.tabsContainer}>
+                    {
+                        activeCategory.items.map(item => {
+                            return (
+                                <View style={{ paddingRight : 34 }}>
+                                    <FoodCard product={item}/>
+                                </View>
                             )
                         })
                     }
@@ -58,10 +81,7 @@ function TabTitle({title, active}: { title: string, active: boolean }) {
 }
 
 const styles = StyleSheet.create({
-    container: {
-        flexDirection: "row",
-        alignContent: 'center'
-    },
+    container: {},
     tabsContainer: {
         flexDirection: "row",
         paddingHorizontal: 75,

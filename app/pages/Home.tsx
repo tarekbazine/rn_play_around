@@ -10,9 +10,6 @@ import data from '../../fixtures/food.json';
 export default function Home() {
     return (
         <View style={styles.container}>
-
-            <AppBar/>
-
             <View style={{
                 paddingHorizontal: H_PADDING
             }}>
@@ -39,8 +36,6 @@ export default function Home() {
 
             <FoodSelect categories={data}/>
 
-            <View>
-            </View>
         </View>
     );
 }
@@ -48,8 +43,6 @@ export default function Home() {
 
 const styles = StyleSheet.create({
     container: {
-
         flex: 1,
-        backgroundColor: '#F2F2F2',
     },
 });
